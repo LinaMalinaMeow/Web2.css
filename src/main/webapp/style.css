@@ -1,0 +1,156 @@
+body {
+    background-image: url(пивко.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    margin: 20px;
+    font-style: italic;
+    height: 100px;
+    font-size: 60px;
+    color: rgb(10, 0, 0);
+
+}
+
+#history-table {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+    color: rgb(9, 2, 2);
+    background-color: rgb(255, 239, 220, 0.75);
+}
+
+td > b {
+    margin-left: 30px;
+}
+
+.submitter {
+    margin-top: 70px;
+    text-align: center;
+}
+
+#submit_button {
+    font-size: 25px;
+    height: 40px;
+    width: 170px;
+    color: rgb(21, 2, 2);
+    background-color: rgb(255, 239, 220);
+    border-radius: 10px;
+}
+
+#clear_button {
+    font-size: 25px;
+    height: 40px;
+    margin-left: 200px;
+    width: 300px;
+    color: rgb(21, 3, 3);
+    background-color: rgb(255, 239, 220);
+    border-radius: 10px;
+}
+
+#left-header {
+    font-size: 35px;
+    margin-left: 1em;
+    float: left;
+}
+
+#right-header {
+    font-size: 35px;
+    margin-right: 1em;
+    float: right;
+}
+
+#box {
+    margin-top: 50px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button:hover {
+    border: 3px solid rgb(6, 218, 6);
+}
+
+.arg {
+    border: 3px solid rgb(14, 2, 2);
+    border-radius: 5px;
+    /* color: blue; */
+    color: rgb(17, 2, 2);
+    /* color: bisque; */
+    /* background-color: rgb(226, 225, 225); */
+    background-color: rgb(255, 239, 220);
+    display: flex;
+}
+
+#box > .arg:nth-child(1) {
+    background-color: white;
+}
+
+span > select {
+    margin-top: 10%;
+    width: 60px;
+    height: 27px;
+    font-size: 16px;
+    text-align: center;
+}
+
+span > textarea {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin: 10px;
+    margin-top: 7%;;
+    width: 200px;
+    height: 27px;
+    font-size: 16px;
+    border: black;
+}
+
+span {
+    text-align: center;
+    background-image: url("пивко2.0.gif");
+    background-size: 75px;
+}
+
+span > label {
+    margin: 15px;
+    text-align: center;
+    background: antiquewhite;
+    border-radius:10px;
+    border: 3px solid black;
+}
+#wrong_field_Y{
+    color: #fa0c0c;
+}
+.result_table { /* селектор классов */
+    width: 100%;
+    /*font-size: 100%;*/
+    font-size: 20px;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    color: black;
+    background-color: bisque;
+    border-spacing: 15px;
+    margin-top: 30px;
+}
+.back_button {
+    text-align: center;
+    /*color: rgb(6, 218, 6);*/
+    font-size: 25px;
+    height: 40px;
+    width: 610px;
+    color: rgb(21, 2, 2);
+    background-color: rgb(255, 239, 220);
+    border-radius: 10px;
+    margin-top: 10px ;
+}
+#enter-text {
+    font-size: 20px;
+    margin-top: 90px;
+}
